@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* border: 1px solid lightgrey; */
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  color: grey;
+  /* padding: 5%; */
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+h2 {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+/* utility classes */
+
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+.left {
+  text-align: left;
+}
+.padded-2 {
+  padding: 2%;
+}
+.padded-bottom {
+  padding-bottom: 20px;
+}
+.padded-top {
+  padding-top: 20px;
+}
+.padded-left {
+  padding-left: 20px;
+}
+.margin-top {
+  margin-top: 90px;
+}
+/* nav */
+
+nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: white;
+  padding-top: 15px;
+  min-height: 15vh;
+}
+
+a {
+  padding: 5%;
+  color: grey;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 1px solid #D6DFFE;
+}
+
+.nav-anna {
+  font-size: 1.5rem;
+  color: grey;
+  text-decoration: none;
+}
+
+/* banner */
+
+.banner {
+  min-height: 50vh;
+  background-color: #D6DFFE;
+  margin-top: 90px;
+}
+
+.banner h1 {
+  margin-right: 160px;
+  padding-right: 10px;
+  padding-left: 4%;
+}
+
+.border-left {
+  border-left: 1px solid grey;
+}
+
+/* make max width smaller - check gridlexx breakpoints */
+@media (max-width: 768px) {
+  .banner {
+    padding-top: 100px;
+    text-align: center;
+  }
+  .h2-banner {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+
+  .banner h1 {
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+
+.h2-banner {
+  font-size: 3rem;
+}
+
+/* my work */
+
+.my-work {
+  min-height: 30vh;
+  margin: 20px;
+  border: 10px solid white;
+}
+
+.writing {
+  margin: 10px;
+  background-color: #D6DFFE;
+  min-height: 40vh;
+}
+.web-dev {
+  margin: 10px;
+  background-color: #D6DFFE;
+  min-height: 40vh;
+}
+
+.frankie {
+  margin: 10px;
+  background-color: #D6DFFE;
+  min-height: 40vh;
+}
+
+.relative {
+  position: relative;
+}
+
+.paralax {
+  min-height: 30vh;
+  background-image: url(../assets/favourites.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+footer {
+  padding: 2%;
+}

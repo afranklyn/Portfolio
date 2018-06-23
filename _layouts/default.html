@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <title> {{page.title}} </title>
+
+    <!-- the below makes website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+
+    <link rel="stylesheet" href="/css/gridlex.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.css">
+
+
+  </head>
+  <body>
+
+    <!-- Nav -->
+
+    <div class"grid">
+      <nav>
+        <div class="col-3">
+          <a href="/about">about me</a>
+          <a href="/my-work">my work</a>
+        </div>
+
+
+        <div class="col-6">
+          <h1>Anna Franklyn</h1>
+        </div>
+
+        <div class="col-3">
+          <p>email</p>
+          <a href="/resume">resume</a>
+        </div>
+      </nav>
+    </div>
+
+    {{content}}
+
+  </body>
+</html>
